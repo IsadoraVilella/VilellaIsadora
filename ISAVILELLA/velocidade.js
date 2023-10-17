@@ -1,14 +1,13 @@
-const frm = document.querySelector("form")
+onst frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 
 //ouvinte
 
 frm = addEventListener("submit", (e) => {
-    e.preventDeFault()
+    e.preventDefault()
  
     const permitida = Number(frm.inPermitida.value)
     const condutor = Number(frm.inCondutor.value)
-    alert(permitida + condutor)
     let leve = permitida + (permitida * 0.2)
     
 
