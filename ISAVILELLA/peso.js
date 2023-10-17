@@ -7,7 +7,7 @@ form.addEventListener("submit", (e)=> {
     e.preventDefault()
 
     const nome = form.inNome.value
-    const Masculino = form.inMasculino.checked
+    const masculino = form.inMasculino.checked
     const altura = Number(form.inAltura.value)
 
     //calculando o peso ideal
